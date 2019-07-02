@@ -1,0 +1,85 @@
+.who {
+    background-color: white;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    .who-container {
+        width: 60%;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        .red {
+            color: rgb(231, 76, 60);
+        }
+        .who-title {
+            padding-top: 5vh;
+            h2 {
+                color: rgb(231, 76, 60);
+                &::after{
+                    content:"";
+                    display:block;
+                    height: 2px;
+                    background-color: rgb(231, 76, 60);
+                    width: 18%;
+                    margin: auto;
+                    margin-top: 2vh;
+                }
+            }
+            
+        }
+        .who-text {
+            padding-top: 5vh;
+            font-size: 1.2rem;
+            line-height: 1.7rem;
+        }
+    }
+
+}
+
+//RESPONSIVE PORTABLE
+@media screen and (max-width: 767px) {
+    .who {
+        background-color: white;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        .who-container {
+            width: 100vw;
+            margin-top: 10vh;
+            margin-bottom: 10vh;
+            .red {
+                color: rgb(231, 76, 60);
+            }
+            .who-title {
+                padding-top: 5vh;
+                h2 {
+                    color: rgb(231, 76, 60);
+                    &::after{
+                        content:"";
+                        display:block;
+                        height: 2px;
+                        background-color: rgb(231, 76, 60);
+                        width: 18%;
+                        margin: auto;
+                        margin-top: 2vh;
+                    }
+                }
+                
+            }
+            .who-text {
+                padding-top: 5vh;
+                font-size: 1.2rem;
+                line-height: 1.7rem;
+                width: 88vw;
+                margin: auto;
+            }
+        }
+    
+    }
+}
+

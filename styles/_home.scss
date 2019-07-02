@@ -1,0 +1,146 @@
+.home{
+    background: url(./images/hero-image.jpg) center no-repeat fixed;
+    background-size: cover;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+    
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    .home-container {
+        text-align:center;
+        color: white;
+        
+        width: 50vw;
+        h1 {
+            padding-top: 3vh;
+            padding-bottom: 3vh;
+            font-size: 3rem;
+            
+        }
+        .home-para {
+            padding-top: 5vh;
+            padding-bottom: 5vh;
+            font-size: 1.2rem;
+        }
+        .home-btn{
+            
+            background-color: #E74C3C;
+            width: 10vw;
+            border-radius: 15px;
+            margin: auto;
+            padding-top:3vh;
+            padding-bottom: 3vh;
+            margin-bottom: 5vh;
+            font-weight: bold;
+            letter-spacing: 0.2rem;
+            text-decoration: none;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .home{
+        background: url(./images/hero-image.jpg) center no-repeat fixed;
+        background-size: cover;
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 7vh;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        .home-container {
+            text-align:center;
+            color: white;
+            width: 100vw;
+            h1 {
+                padding-top: 3vh;
+                padding-bottom: 3vh;
+                font-size: 1.8rem;
+                width: 45vw;
+                margin: auto;
+            }
+            .home-para {
+                padding-top: 5vh;
+                padding-bottom: 5vh;
+                font-size: 1.2rem;
+                width: 80vw;
+                margin: auto;
+            }
+            .home-btn{
+                
+                background-color: #E74C3C;
+                width: 20vw;
+                border-radius: 15px;
+                margin: auto;
+                padding-top:3vh;
+                padding-bottom: 3vh;
+                margin-bottom: 5vh;
+                font-weight: bold;
+                letter-spacing: 0.2rem;
+                text-decoration: none;
+            }
+        }
+        
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+    .home{
+        background: url(./images/hero-image.jpg) center no-repeat fixed;
+        background-size: cover;
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 7vh;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        .home-container {
+            text-align:center;
+            color: white;
+            width: 100vw;
+            h1 {
+                padding-top: 3vh;
+                padding-bottom: 3vh;
+                font-size: 1.8rem;
+                width: 45vw;
+                margin: auto;
+            }
+            .home-para {
+                padding-top: 5vh;
+                padding-bottom: 5vh;
+                font-size: 1.2rem;
+                width: 80vw;
+                margin: auto;
+            }
+            .home-btn{
+                
+                background-color: #E74C3C;
+                width: 20vw;
+                border-radius: 15px;
+                margin: auto;
+                padding-top:3vh;
+                padding-bottom: 3vh;
+                margin-bottom: 5vh;
+                font-weight: bold;
+                letter-spacing: 0.2rem;
+                text-decoration: none;
+            }
+        }
+        
+    }
+
+
+}
+
+    

@@ -1,0 +1,40 @@
+#btnScrollToTop{
+ position: fixed;
+ right: 40px;
+ bottom: 100px;
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ background-color: rgb(255, 230, 45);
+ color: #E74C3C;
+ box-shadow: 0 0 10px rgba(0,0,0,0.25);
+ outline: none;
+ border:none;
+ cursor: pointer;
+ &:active {
+     background-color: rgb(220, 154, 0);
+     color: white;
+ }
+}
+
+@media screen and (max-width: 991px) {
+    #btnScrollToTop{
+        position: fixed;
+        right: 10px;
+        bottom: 30px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: rgb(255, 230, 45);
+        color: #E74C3C;
+        box-shadow: 0 0 10px rgba(0,0,0,0.25);
+        outline: none;
+        border:none;
+        cursor: pointer;
+        &:active {
+            background-color: rgb(220, 154, 0);
+            color: white;
+        }
+       }
+
+}

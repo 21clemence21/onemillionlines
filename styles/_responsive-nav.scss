@@ -1,0 +1,45 @@
+.responsive-nav {
+
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    color: white;
+    background-color: rgb(38, 34, 34);
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 7.5vh;
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 0.8rem;
+    }
+    hr{
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .responsive-nav {
+
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center; 
+        color: white;
+        background-color: rgb(38, 34, 34);
+        width: 100vw;
+        height: 10vh;
+        position: fixed;
+        top: 7.7vh;
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 0.8rem;
+        }
+        hr{
+            width: 30vw;
+        }
+    }
+}
