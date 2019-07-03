@@ -275,7 +275,7 @@
           align-items: center;
   margin-top: 7vh;
   padding-bottom: 10vh;
-  padding-top: 10vh;
+  padding-top: 15vh;
 }
 
 .home .home-container {
@@ -328,7 +328,7 @@
             align-items: center;
     margin-top: 7vh;
     padding-bottom: 10vh;
-    padding-top: 10vh;
+    padding-top: 16vh;
   }
   .home .home-container {
     text-align: center;
@@ -434,6 +434,7 @@
           align-items: center;
   text-align: center;
   background-color: white;
+  padding-top: 7vh;
 }
 
 .who .who-container {
@@ -488,6 +489,7 @@
             align-items: center;
     text-align: center;
     background-color: white;
+    padding-top: 16vh;
   }
   .who .who-container {
     width: 100vw;
@@ -524,6 +526,7 @@
 .get-involved {
   text-align: center;
   background-color: #efeded;
+  padding-top: 7vh;
 }
 
 .get-involved i {
@@ -596,6 +599,7 @@
   .get-involved {
     text-align: center;
     background-color: #efeded;
+    padding-top: 17vh;
   }
   .get-involved i {
     color: white;
@@ -606,7 +610,7 @@
   }
   .get-involved .get-involved-title h2 {
     color: #e74c3c;
-    padding-top: 5vh;
+    padding-top: 17vh;
   }
   .get-involved .get-involved-title h2::after {
     content: "";
